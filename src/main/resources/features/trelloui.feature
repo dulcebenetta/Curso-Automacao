@@ -7,12 +7,12 @@ Funcionalidade: Trello UI
     Dado que esteja logado no Trello
     E acesse o board
     Quando crio um card com nome "<Card Name>"
-    E comento "<Coment>"
-    Então o card deve estar na lista
+    E comento "<Comment>"
+    Entao o card deve estar na lista
     Quando excluo o card
-    Então o card não existe mais
+    Entao o card nao existe mais
 
     Exemplos:
-      | Card Name | Coment		|
-      | Card 01 	| Cometário 01	|
-      | Card 02 	| Cometário 02	|
+      | Card Name   | Comment	   	|
+      | Card 01 	| Comentario 01	|
+      | Card 02 	| Comentario 02	|
